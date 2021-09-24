@@ -5,12 +5,33 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  background-color: rgb(156, 76, 231);
+  font-family: 'Poppins', sans-serif;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  text-align: center;
   height: 100vh;
   overflow: hidden;
   margin: 0;
+}
+
+.btn {
+  color: #fff;
+  background-color: rebeccapurple;
+  border-radius: 5px;
+  border: 0;
+  margin: 1rem;
+  padding: 1.5rem 3rem;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: .9;
+}
+
+.btn:focus {
+  outline: none;
 }
